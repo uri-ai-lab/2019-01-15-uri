@@ -289,7 +289,7 @@ eventbrite: "53537740824"       # optional: alphanumeric key for Eventbrite regi
   {% endif %}
   workshop,
   you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  In addition, you will need an up-to-date web browser and access to a spreadsheet program (e.g. Excel).
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
