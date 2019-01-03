@@ -706,6 +706,7 @@ eventbrite: "53537740824"       # optional: alphanumeric key for Eventbrite regi
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
+{% comment %}
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -752,6 +753,7 @@ eventbrite: "53537740824"       # optional: alphanumeric key for Eventbrite regi
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+{% endcomment %}
 
 {% comment %}
 <div id="vm">
