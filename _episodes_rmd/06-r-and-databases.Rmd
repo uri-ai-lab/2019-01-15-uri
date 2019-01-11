@@ -17,9 +17,9 @@ exercises: 30
 ---
 
 ```{r source, include=FALSE}
-library(knitr)
-library(methods)
-suppressPackageStartupMessages(library(tidyverse))
+# library(knitr)
+# library(methods)
+# suppressPackageStartupMessages(library(tidyverse))
 knitr::opts_chunk$set(eval = FALSE)
 
 ### Custom hooks
