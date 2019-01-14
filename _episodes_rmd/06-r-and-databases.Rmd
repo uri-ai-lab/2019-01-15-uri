@@ -16,44 +16,13 @@ teaching: 60
 exercises: 30
 ---
 
-```{r source, include=FALSE}
-# library(knitr)
-# library(methods)
-# suppressPackageStartupMessages(library(tidyverse))
-knitr::opts_chunk$set(eval = FALSE)
-
-### Custom hooks
-
-## hook for challenges answers
-
-# knitr::knit_hooks$set(answer = function(before, options, envir) {
-#     if (before) {
-#         paste(
-#             "<div class=\"accordion\">",
-#               "<h3 class=\"toc-ignore\">Answer</h3>",
-#               "<div style=\"background: #fff;\">",  sep = "\n")
-#     } else {
-#         paste("</div>", "</div>", sep = "\n")
-#     }
-# })
-# 
-# eng_text_answer <- knitr:::eng_html_asset(
-#                                paste(
-#                                    "<div class=\"accordion\">",
-#                                    "<h3 class=\"toc-ignore\">Answer</h3>",
-#                                    "<div style=\"background: #fff;\">",
-#                                    "<p>",  sep = "\n"),
-#                                paste(
-#                                    "</div>", "</div>", "</p>", sep = "\n"
-#                                )
-#                            )
-# 
-# knitr::knit_engines$set(text_answer = eng_text_answer)
+```{r chunk_options, include=FALSE}
+source("../bin/chunk-options.R")
+knitr_fig_path("06-")
 ```
 
 
 ## Introduction
-
 
 So far, we have dealt with small datasets that easily fit into your computer's
 memory. But what about datasets that are too large for your computer to
@@ -128,7 +97,7 @@ database using **`dplyr`**, using both the **`dplyr`**'s verb syntax and the SQL
 We will continue to explore the `SAFI` data you are already familiar with
 from previous lessons. First, we are going to install the **`dbplyr`** package:
 
-```{r dbplyr-install}
+```{r dbplyr-install, eval=FALSE}
 install.packages(c("dbplyr", "RSQLite"))
 ```
 
@@ -136,7 +105,7 @@ The SQLite database is contained in a single file `portal_mammals.sqlite`
 that you generated during the SQL lesson. If you don't have it, you can download
 it from Figshare into the `data` subdirectory using:
 
-```{r download}
+```{r download, eval=FALSE}
 dir.create("data", showWarnings = FALSE)
 download.file(url = "https://ndownloader.figshare.com/files/2292171",
               destfile = "data/safi.sqlite", mode = "wb")
@@ -146,7 +115,7 @@ download.file(url = "https://ndownloader.figshare.com/files/2292171",
 
 We can point R to this database using:
 
-```{r connect}
+```{r connect, eval=FALSE}
 library(dplyr)
 library(dbplyr)
 safi <- DBI::dbConnect(RSQLite::SQLite(), "data/safi.sqlite")
@@ -156,13 +125,13 @@ This command uses 2 packages that helps **`dbplyr`** and **`dplyr`** talk to the
 
 This command does not load the data into the R session (as the
 `read_csv()` function did). Instead, it merely instructs R to connect to
-the `SQLite` database contained in the `portal_mammals.sqlite` file.
+the `SQLite` database contained in the `safi.sqlite` file.
 
 Using a similar approach, you could connect to many other database management systems that are supported by R including MySQL, PostgreSQL, BigQuery, etc.
 
 Let's take a closer look at the `mammals` database we just connected to:
 
-```{r tables, results="markup"}
+```{r tables, results="markup", eval=FALSE}
 src_dbi(safi)
 ```
 
@@ -184,12 +153,13 @@ To connect to tables within a database, you can use the `tbl()` function from
 demonstrate this functionality, let's select the columns "year", "species_id",
 and "plot_id" from the `surveys` table:
 
-```{r use-sql-syntax}
+```{r use-sql-syntax, eval=FALSE}
 tbl(safi, sql("SELECT Country, A06_province, A07_district, A08_ward, A09_village FROM Farms"))
 ```
 
-With this approach you can use any of the SQL queries we have seen in the
-database lesson.
+With this approach you can use query written in SQL syntax, but in this lesson,
+rather than introduce yet another language, we'll look at how to use R commands
+to interact with the database.
 
 ### Querying the database with the dplyr syntax
 
@@ -198,9 +168,9 @@ One of the strengths of **`dplyr`** is that the same operation can be done using
 the operations by creating the `surveys` object, and then we use the standard
 **`dplyr`** syntax as if it were a data frame:
 
-```{r use-dplyr-syntax}
+```{r use-dplyr-syntax, eval=FALSE}
 farms <- tbl(safi, "Farms")
-farms %>%
+df <- farms %>%
     select(Country, A06_province, A07_district, A08_ward, A09_village)
 ```
 
@@ -210,7 +180,7 @@ database. For instance, the `head()` function can be used to check the first 10
 rows of the table:
 
 
-```{r table_details, results='show'}
+```{r table_details, results='show', eval=FALSE}
 head(farms, n = 10)
 ```
 
@@ -220,7 +190,7 @@ The table has 61 columns and the `head()` command shows us the first 10 rows.
 However, some functions don't work quite as expected. For instance, let's check
 how many rows there are in total using `nrow()`:
 
-```{r nrows, results='show'}
+```{r nrows, results='show', eval=FALSE}
 nrow(farms)
 ```
 
@@ -258,7 +228,7 @@ Behind the scenes, **`dplyr`**:
 To lift the curtain, we can use **`dplyr`**'s `show_query()` function to show which SQL
 commands are actually sent to the database:
 
-```{r show_query, message=TRUE}
+```{r show_query, message=TRUE, eval=FALSE}
 show_query(head(farms, n = 10))
 ```
 
@@ -288,7 +258,7 @@ To see this in action, let's compose a few queries with **`dplyr`**.
 First, let's only request rows of the `Farms` table in which `B16_years_liv` is greater
 than 25 and keep only the Id, B16_years_liv, and B17_parents_liv columns.
 
-```{r pipe, results='show'}
+```{r pipe, results='show', eval=FALSE}
 farms %>%
   filter(B16_years_liv > 25) %>%
   select(Id, B16_years_liv, B17_parents_liv)
@@ -326,7 +296,7 @@ pipeline. For example, we combined the `filter()` and `select()` verbs using the
 If we wanted to, we could add on even more steps, e.g. remove the `B17_parents_liv` column
 in an additional `select` call:
 
-```{r pipe2, results='show'}
+```{r pipe2, results='show', eval=FALSE}
 data_subset <- farms %>%
   filter(B16_years_liv > 25) %>%
   select(Id, B16_years_liv, B17_parents_liv)
@@ -350,7 +320,7 @@ the database, we add the `collect()` command to our pipe. It indicates that our
 database query is finished: time to get the _final_ results and load them into
 the R session.
 
-```{r collect, results='markup'}
+```{r collect, results='markup', eval=FALSE}
 data_subset <- farms %>%
   filter(B16_years_liv > 25) %>%
   select(Id, B16_years_liv, B17_parents_liv) %>%
@@ -379,14 +349,14 @@ the `plots` and `surveys` tables. The `plots` table in the database contains
 information about the different plots surveyed by the researchers. To access it,
 we point the `tbl()` command to it:
 
-```{r plots, results='markup'}
+```{r plots, results='markup', eval=FALSE}
 # plots <- tbl(mammals, "plots")
 # plots
 ```
 
 The `plot_id` column also features in the `surveys` table:
 
-```{r surveys, results='markup'}
+```{r surveys, results='markup', eval=FALSE}
 # surveys
 ```
 
@@ -400,7 +370,7 @@ records, and join the two tables.
 For example, to extract all surveys for the first plot, which has `plot_id` 1,
 we can do:
 
-```{r join, results='markup'}
+```{r join, results='markup', eval=FALSE}
 # plots %>%
 #   filter(plot_id == 1) %>%
 #   inner_join(surveys) %>%
@@ -413,7 +383,7 @@ we can do:
 matching rows are returned. By adding `collect()`, the full set of 1,985 is
 retrieved.
 
-> ### Challenge
+> ## Challenge 1.
 >
 > Write a query that returns the number of rodents observed in each plot in
 > each year.
@@ -422,30 +392,10 @@ retrieved.
 > and survey tables together to exclude all non-rodents.
 > The query should return counts of rodents by year.
 >
+{: .challenge}
 
-```{r challenge-sql-1, echo=FALSE}
 
-### Challenge
-## Write a query that returns the number of rodents observed in each
-## plot in each year.
-
-##  Hint: Connect to the species table and write a query that joins
-##  the species and survey tables together to exclude all
-##  non-rodents. The query should return counts of rodents by year.
-
-## Optional: Write a query in SQL that will produce the same
-## result. You can join multiple tables together using the following
-## syntax where foreign key refers to your unique id (e.g.,
-## `species_id`):
-
-## SELECT table.col, table.col
-## FROM table1 JOIN table2
-## ON table1.key = table2.key
-## JOIN table3 ON table2.key = table3.key
-
-```
-
-> ### Challenge
+> ## Challenge 2.
 >
 >  Write a query that returns the total number of rodents in each genus caught
 >  in the different plot types.
@@ -453,27 +403,15 @@ retrieved.
 >  Hint: Write a query that joins the species, plot, and survey tables together.
 >  The query should return counts of genus by plot type.
 > 
-> ```{r genus_by_type_answer, answer=TRUE, results='markup', eval=FALSE}
-> species <- tbl("mammals", species)
-> genus_counts <- left_join(surveys, plots) %>%
->   left_join(species) %>%
->   group_by(plot_type, genus) %>%
->   tally %>%
->   collect()
-> ```
+>   species <- tbl("mammals", species)
+>   genus_counts <- left_join(surveys, plots) %>%
+>                   left_join(species) %>%
+>                   group_by(plot_type, genus) %>%
+>                   tally %>%
+>                   collect()
+> 
+{: .challenge}
 
-
-
-```{r challenge-sql-2, echo=FALSE}
-### Challenge
-
-## Write a query that returns the total number of rodents in each
-## genus caught in the different plot types.
-
-##  Hint: Write a query that joins the species, plot, and survey
-##  tables together.  The query should return counts of genus by plot
-##  type.
-```
 
 This is useful if we are interested in estimating the number of individuals
 belonging to each genus found in each plot type. But what if we were interested
@@ -481,15 +419,15 @@ in the number of genera found in each plot type? Using `tally()` gives the
 number of individuals, instead we need to use `n_distinct()` to count the
 number of unique values found in a column.
 
-```{r count_unique_genera}
-# species <- tbl(mammals, "species")
-# unique_genera <- left_join(surveys, plots) %>%
-#     left_join(species) %>%
-#     group_by(plot_type) %>%
-#     summarize(
-#         n_genera = n_distinct(genus)
-#     ) %>%
-#     collect()
+```{r count_unique_genera, eval=FALSE}
+ species <- tbl(mammals, "species")
+ unique_genera <- left_join(surveys, plots) %>%
+     left_join(species) %>%
+     group_by(plot_type) %>%
+     summarize(
+         n_genera = n_distinct(genus)
+     ) %>%
+     collect()
 ```
 
 `n_distinct`, like the other **`dplyr`** functions we have used in this lesson, works
@@ -503,10 +441,10 @@ use R to create a new database, e.g. from existing `csv` files.  Let's recreate
 the mammals database that we've been working with, in R. First let's read in the
 `csv` files.
 
-```{r data_frames}
-# species <- read_csv("data/species.csv")
-# surveys <- read_csv("data/surveys.csv")
-# plots <- read_csv("data/plots.csv")
+```{r data_frames, eval=FALSE}
+species <- read_csv("data/species.csv")
+surveys <- read_csv("data/surveys.csv")
+plots <- read_csv("data/plots.csv")
 ```
 
 Creating a new SQLite database with **`dplyr`** is easy. You can re-use the same
@@ -540,20 +478,13 @@ being written to disk. R and **`dplyr`** not only provide easy ways to query
 existing databases, they also allows you to easily create your own databases
 from flat files!
 
-> ### Challenge
+> ### Challenge 3.
 >
 > Add the remaining species table to the `my_db` database and run some of your
 > queries from earlier in the lesson to verify that you have
 > faithfully recreated the mammals database.
+{: .challenge}
 
-
-```{r challenge-sql-3,  echo=FALSE}
-### Challenge
-
-## Add the remaining species table to the my_db database and run some
-## of your queries from earlier in the lesson to verify that you
-## have faithfully recreated the mammals database.
-```
 
 **Note:** In this example, we first loaded all of the data into the R session by
 reading the three `csv` files. Because all the data has to flow through R,

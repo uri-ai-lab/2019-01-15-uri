@@ -1,0 +1,845 @@
+Id,plot_Id,D01_curr_plot,D02_total_plot,D03_unit_land,D03_unit_land_other,D04_crops_harvsted,D04_crops_harvsted_other,D_crops_count
+1,1,1.0,0.5,hactare,,['maize'],,1
+1,2,2.0,0.5,hactare,,['maize'],,1
+2,1,3.0,1.0,hactare,,['maize'],,1
+2,2,2.0,1.5,hactare,,['tomatoes'],,1
+2,3,3.0,1.0,hactare,,['vegetable'],,1
+3,1,1.0,1.0,hactare,,['maize'],,1
+4,1,1.0,1.0,hactare,,['maize'],,1
+4,2,2.0,1.0,hactare,,['maize'],,1
+4,3,3.0,1.0,hactare,,['sorghum'],,1
+5,1,1.0,1.5,hactare,,['maize'],,1
+5,2,2.0,0.5,hactare,,['maize'],,1
+6,1,1.0,1.5,hactare,,['maize'],,1
+7,1,1.0,2.0,hactare,,['maize'],,1
+7,2,2.0,1.0,hactare,,['tomatoes'],,1
+7,3,3.0,1.0,hactare,,['beans'],,1
+7,4,4.0,1.0,hactare,,['vegetable'],,1
+8,1,1.0,1.0,hactare,,['maize'],,1
+8,2,2.0,2.0,hactare,,['maize'],,1
+9,1,1.0,1.5,hactare,,['maize'],,1
+9,2,2.0,1.0,hactare,,['tomatoes'],,1
+9,3,3.0,1.0,hactare,,['vegetable'],,1
+10,1,1.0,3.0,hactare,,['maize'],,1
+10,2,2.0,1.5,hactare,,['tomatoes'],,1
+11,1,1.0,1.0,hactare,,['maize'],,1
+11,2,2.0,1.0,hactare,,['maize'],,1
+12,1,2.0,3.5,hactare,,['maize'],,1
+12,2,2.0,1.5,hactare,,['tomatoes'],,1
+13,1,1.0,12.0,hactare,,['maize'],,1
+13,2,2.0,1.0,hactare,,['beans'],,1
+13,3,3.0,1.0,hactare,,['vegetable'],,1
+13,4,4.0,1.0,hactare,,['onion'],,1
+14,1,1.0,1.0,hactare,,['maize'],,1
+14,2,2.0,1.0,hactare,,['maize'],,1
+14,3,3.0,1.0,hactare,,['maize'],,1
+15,1,1.0,15.0,hactare,,['maize'],,1
+15,2,2.0,1.0,hactare,,['beans'],,1
+15,3,3.0,0.5,hactare,,['ngogwe'],,1
+16,1,1.0,3.5,hactare,,['maize'],,1
+17,1,3.0,1.0,hactare,,['maize'],,1
+17,2,2.0,0.3,hactare,,['vegetable'],,1
+17,3,3.0,0.3,hactare,,['other'],Inhame,1
+18,1,1.0,1.0,hactare,,['maize'],,1
+18,2,2.0,0.5,hactare,,['pigeonpeas'],,1
+19,1,1.0,5.5,hactare,,['maize'],,1
+19,2,2.0,1.0,hactare,,['beans'],,1
+20,1,1.0,1.5,hactare,,['maize'],,1
+20,2,2.0,0.5,hactare,,['beans'],,1
+21,1,1.0,1.0,hactare,,['maize'],,1
+21,2,2.0,1.0,hactare,,['vegetable'],,1
+21,3,3.0,1.0,hactare,,['tomatoes'],,1
+21,4,4.0,1.0,hactare,,['cabbage'],,1
+22,1,1.0,3.0,hactare,,['maize'],,1
+23,1,1.0,10.0,hactare,,['maize'],,1
+23,2,2.0,1.0,hactare,,['amendoim'],,1
+24,1,1.0,2.0,hactare,,['maize'],,1
+24,2,2.0,2.0,hactare,,['tomatoes'],,1
+24,3,3.0,0.5,hactare,,['peanut'],,1
+25,1,1.0,6.0,hactare,,['maize'],,1
+25,2,2.0,1.0,hactare,,['tomatoes'],,1
+25,3,3.0,1.0,hactare,,['cabbage'],,1
+26,1,1.0,5.0,hactare,,['maize'],,1
+26,2,2.0,1.0,hactare,,['beans'],,1
+27,1,1.0,4.0,hactare,,['maize'],,1
+27,2,2.0,1.0,hactare,,['beans'],,1
+28,1,1.0,1.0,hactare,,['maize'],,1
+28,2,2.0,0.5,hactare,,['tomatoes'],,1
+28,3,3.0,0.5,hactare,,['vegetable'],,1
+29,1,1.0,1.5,hactare,,['maize'],,1
+29,2,2.0,0.2,hactare,,['tomatoes'],,1
+29,3,3.0,0.5,hactare,,['beans'],,1
+30,1,1.0,5.0,hactare,,['maize'],,1
+31,1,1.0,1.0,hactare,,['maize'],,1
+32,1,1.0,10.0,hactare,,['maize'],,1
+32,2,2.0,3.0,hactare,,['sorghum'],,1
+32,3,3.0,0.5,hactare,,['sunflower'],,1
+32,4,4.0,1.0,hactare,,['peanut'],,1
+32,5,5.0,0.5,hactare,,['tomatoes'],,1
+32,6,6.0,0.3,hactare,,['onion'],,1
+32,7,7.0,0.2,hactare,,['cabbage'],,1
+32,8,8.0,0.5,hactare,,['vegetable'],,1
+33,1,1.0,4.0,hactare,,['maize'],,1
+33,2,2.0,2.0,hactare,,['tomatoes'],,1
+34,1,1.0,1.0,hactare,,['tomatoes'],,1
+34,2,2.0,1.5,hactare,,['maize'],,1
+35,1,1.0,1.0,hactare,,['tomatoes'],,1
+35,2,2.0,4.0,hactare,,['maize'],,1
+36,1,1.0,1.0,hactare,,['maize'],,1
+36,2,2.0,2.0,hactare,,['tomatoes'],,1
+36,3,3.0,1.0,hactare,,['vegetable'],,1
+37,1,1.0,1.0,hactare,,['maize'],,1
+38,1,1.0,0.5,hactare,,['maize'],,1
+38,2,2.0,1.0,hactare,,['tomatoes'],,1
+39,1,1.0,7.0,hactare,,['maize'],,1
+40,1,1.0,4.0,hactare,,['maize'],,1
+40,2,2.0,2.0,hactare,,['tomatoes'],,1
+41,1,1.0,5.0,hactare,,['maize'],,1
+42,1,1.0,0.5,hactare,,['maize'],,1
+42,2,2.0,0.5,hactare,,['other'],Murango,1
+43,1,1.0,5.0,hactare,,['maize'],,1
+43,2,2.0,1.0,hactare,,['amendoim'],,1
+43,3,3.0,1.0,hactare,,['vegetable'],,1
+43,4,4.0,1.0,hactare,,"['tomatoes', 'peanut']",,2
+44,1,1.0,1.5,hactare,,['maize'],,1
+45,1,1.0,1.5,hactare,,['maize'],,1
+45,2,2.0,1.0,hactare,,['tomatoes'],,1
+45,3,3.0,1.0,hactare,,['beans'],,1
+46,1,1.0,2.0,hactare,,['maize'],,1
+46,2,2.0,2.0,hactare,,['tomatoes'],,1
+46,3,3.0,1.0,hactare,,['vegetable'],,1
+46,4,4.0,1.0,hactare,,['onion'],,1
+46,5,5.0,0.5,hactare,,['beans'],,1
+47,1,1.0,2.5,hactare,,['maize'],,1
+47,2,2.0,0.5,hactare,,['tomatoes'],,1
+48,1,1.0,3.5,hactare,,"['maize', 'sorghum']",,2
+49,1,1.0,3.0,hactare,,"['maize', 'sorghum']",,2
+50,1,1.0,0.5,hactare,,"['maize', 'tomatoes', 'piri_piri']",,3
+51,1,1.0,1.0,hactare,,['maize'],,1
+52,1,1.0,2.0,hactare,,['maize'],,1
+53,1,1.0,5.0,hactare,,['maize'],,1
+53,2,2.0,1.0,hactare,,"['beans', 'tomatoes', 'cabbage', 'vegetable']",,4
+53,3,1.0,1.0,hactare,,['maize'],,1
+54,1,1.0,1.0,hactare,,"['maize', 'tomatoes']",,2
+55,1,4.0,9.0,hactare,,['maize'],,1
+56,1,1.0,5.5,hactare,,['maize'],,1
+56,2,2.0,1.0,hactare,,['tomatoes'],,1
+57,1,1.0,1.0,hactare,,['maize'],,1
+57,2,2.0,0.5,hactare,,['other'],Inhame,1
+58,1,1.0,3.0,hactare,,['beans'],,1
+58,2,2.0,0.5,hactare,,['other'],Inhame,1
+58,3,3.0,10.0,hactare,,['maize'],,1
+59,1,1.0,0.5,hactare,,"['maize', 'other']",Inhame,2
+59,2,2.0,1.0,hactare,,['maize'],,1
+60,1,1.0,2.0,hactare,,['maize'],,1
+60,2,2.0,1.0,hactare,,['tomatoes'],,1
+60,3,3.0,1.0,hactare,,['peanut'],,1
+61,1,1.0,2.0,hactare,,"['tomatoes', 'onion', 'cabbage', 'vegetable', 'piri_piri']",,5
+61,2,2.0,6.0,hactare,,['maize'],,1
+62,1,1.0,0.5,hactare,,['maize'],,1
+62,2,2.0,0.5,hactare,,['sorghum'],,1
+63,1,1.0,1.5,hactare,,"['maize', 'sesame']",,2
+64,1,1.0,2.0,hactare,,['maize'],,1
+64,2,2.0,0.5,hactare,,['sesame'],,1
+65,1,1.0,2.0,hactare,,['maize'],,1
+65,2,2.0,1.0,hactare,,['tomatoes'],,1
+66,1,1.0,8.0,hactare,,"['beans', 'tomatoes', 'onion', 'vegetable']",,4
+67,1,1.0,6.0,hactare,,"['maize', 'tomatoes', 'vegetable']",,3
+68,1,1.0,1.5,hactare,,['maize'],,1
+68,2,2.0,1.5,hactare,,['piri_piri'],,1
+68,3,3.0,2.0,hactare,,['maize'],,1
+69,1,1.0,3.0,hactare,,"['maize', 'tomatoes']",,2
+70,1,1.0,8.0,hactare,,['maize'],,1
+70,2,2.0,14.0,hactare,,['maize'],,1
+70,3,3.0,0.2,hactare,,['maize'],,1
+71,1,1.0,4.0,hactare,,['maize'],,1
+71,2,2.0,4.0,hactare,,['tomatoes'],,1
+72,1,1.0,1.0,hactare,,['maize'],,1
+73,1,1.0,8.0,hactare,,"['maize', 'vegetable', 'peanut']",,3
+74,1,1.0,12.0,hactare,,"['maize', 'sorghum']",,2
+74,2,2.0,2.0,hactare,,"['beans', 'tomatoes', 'vegetable']",,3
+75,1,1.0,1.0,hactare,,['maize'],,1
+76,1,1.0,2.0,hactare,,['maize'],,1
+76,2,2.0,1.0,hactare,,['other'],Ananßs,1
+77,1,3.0,4.0,hactare,,['maize'],,1
+77,2,2.0,1.0,hactare,,"['beans', 'vegetable']",,2
+77,3,3.0,2.0,hactare,,['maize'],,1
+78,1,1.0,2.5,hactare,,"['tomatoes', 'onion', 'vegetable']",,3
+78,2,2.0,4.8,hactare,,['maize'],,1
+79,1,1.0,6.0,hactare,,"['maize', 'sorghum']",,2
+79,2,2.0,1.0,hactare,,['tomatoes'],,1
+80,1,1.0,3.0,hactare,,"['maize', 'tomatoes', 'vegetable']",,3
+81,1,1.0,5.0,hactare,,"['maize', 'beans', 'bananas', 'tomatoes', 'vegetable']",,5
+82,1,1.0,2.0,hactare,,"['maize', 'beans', 'tomatoes', 'vegetable']",,4
+83,1,1.0,3.0,hactare,,"['beans', 'tomatoes', 'vegetable']",,3
+83,2,1.0,2.0,hactare,,['maize'],,1
+84,1,1.0,2.0,hactare,,['maize'],,1
+84,2,2.0,0.5,hactare,,['tomatoes'],,1
+84,3,3.0,1.0,hactare,,['beans'],,1
+85,1,1.0,6.0,hactare,,['maize'],,1
+85,2,2.0,1.5,hactare,,"['tomatoes', 'vegetable']",,2
+86,1,1.0,6.5,hactare,,['maize'],,1
+86,2,,3.0,hactare,,"['beans', 'tomatoes', 'vegetable']",,3
+87,1,1.0,2.0,hactare,,['maize'],,1
+87,2,2.0,1.0,hactare,,['other'],Madumbe,1
+88,1,1.0,6.0,hactare,,['maize'],,1
+88,2,2.0,2.0,hactare,,['maize'],,1
+89,1,1.0,3.0,hactare,,['maize'],,1
+89,2,3.0,0.5,hactare,,['tomatoes'],,1
+90,1,1.0,2.0,hactare,,['maize'],,1
+90,2,2.0,3.0,hactare,,['maize'],,1
+90,3,3.0,1.5,hactare,,['tomatoes'],,1
+91,1,1.0,0.5,hactare,,['tomatoes'],,1
+91,2,2.0,3.0,hactare,,['maize'],,1
+91,3,3.0,0.5,hactare,,['beans'],,1
+92,1,1.0,6.0,hactare,,['maize'],,1
+92,2,2.0,6.0,hactare,,['sorghum'],,1
+92,3,3.0,6.0,hactare,,['peanut'],,1
+92,4,4.0,3.0,hactare,,['cabbage'],,1
+92,5,5.0,3.0,hactare,,['tomatoes'],,1
+92,6,6.0,3.0,hactare,,['vegetable'],,1
+93,1,1.0,5.0,hactare,,['maize'],,1
+93,2,2.0,0.5,hactare,,"['maize', 'other']",Inhame,2
+94,1,1.0,1.0,hactare,,['maize'],,1
+94,2,2.0,1.5,hactare,,['beans'],,1
+94,3,,3.0,hactare,,['tomatoes'],,1
+95,1,1.0,1.5,hactare,,['maize'],,1
+95,2,2.0,3.0,hactare,,"['maize', 'beans', 'vegetable', 'other']",Inhame,4
+96,1,1.0,4.0,hactare,,['maize'],,1
+96,2,2.0,3.0,hactare,,"['beans', 'tomatoes']",,2
+97,1,2.0,12.5,hactare,,"['maize', 'sorghum']",,2
+97,2,2.0,1.0,hactare,,"['beans', 'bananas', 'vegetable', 'other']",Inhame,4
+98,1,1.0,5.0,hactare,,['maize'],,1
+98,2,2.0,2.0,hactare,,"['tomatoes', 'onion']",,2
+99,1,1.0,12.0,hactare,,['maize'],,1
+99,2,2.0,1.0,hactare,,"['maize', 'beans', 'tomatoes', 'onion']",,4
+100,1,1.0,3.0,hactare,,"['maize', 'sorghum', 'tomatoes', 'onion', 'vegetable']",,5
+101,1,1.0,5.0,hactare,,"['maize', 'sorghum']",,2
+101,2,2.0,2.0,hactare,,"['beans', 'tomatoes']",,2
+101,3,3.0,0.5,hactare,,"['beans', 'tomatoes', 'vegetable']",,3
+101,4,4.0,1.0,hactare,,"['tomatoes', 'baby_corn']",,2
+102,1,1.0,3.0,hactare,,['maize'],,1
+102,2,2.0,1.0,hactare,,"['tomatoes', 'vegetable']",,2
+103,1,1.0,22.0,hactare,,['baby_corn'],,1
+103,2,2.0,16.0,hactare,,['piri_piri'],,1
+103,3,3.0,4.0,hactare,,['maize'],,1
+103,4,4.0,1.0,hactare,,['cabbage'],,1
+103,5,5.0,2.0,hactare,,['tomatoes'],,1
+104,1,1.0,5.0,hactare,,['maize'],,1
+104,2,2.0,0.5,hactare,,['pigeonpeas'],,1
+104,3,3.0,6.0,hactare,,['sorghum'],,1
+105,1,1.0,6.0,hactare,,['maize'],,1
+105,2,2.0,5.0,hactare,,['maize'],,1
+105,3,3.0,3.0,hactare,,['maize'],,1
+106,1,1.0,1.0,hactare,,['maize'],,1
+106,2,2.0,1.0,hactare,,"['beans', 'onion']",,2
+106,3,3.0,0.5,hactare,,['other'],Inhame,1
+107,1,1.0,3.0,hactare,,['maize'],,1
+108,1,1.0,1.0,hactare,,['maize'],,1
+108,2,2.0,0.5,hactare,,['beans'],,1
+108,3,3.0,3.5,hactare,,"['tomatoes', 'onion', 'vegetable', 'cucumber']",,4
+109,1,1.0,2.0,hactare,,"['maize', 'potatoes']",,2
+109,2,2.0,0.5,hactare,,['maize'],,1
+110,1,1.0,8.0,hactare,,['maize'],,1
+110,2,2.0,3.0,hactare,,['maize'],,1
+111,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+111,2,2.0,2.0,hactare,,['maize'],,1
+111,3,3.0,1.5,hactare,,['vegetable'],,1
+112,1,1.0,5.0,hactare,,['maize'],,1
+113,1,1.0,12.0,hactare,,['maize'],,1
+114,1,1.0,6.0,hactare,,['maize'],,1
+114,2,2.0,1.0,hactare,,['tomatoes'],,1
+115,1,1.0,4.0,hactare,,['maize'],,1
+115,2,2.0,4.0,hactare,,['maize'],,1
+115,3,3.0,5.5,hactare,,"['beans', 'tomatoes', 'piri_piri']",,3
+116,1,1.0,2.0,hactare,,['maize'],,1
+116,2,2.0,0.5,hactare,,['other'],Inhame,1
+117,1,1.0,2.5,hactare,,['maize'],,1
+117,2,2.0,0.5,hactare,,['sorghum'],,1
+118,1,1.0,2.0,hactare,,['maize'],,1
+118,2,2.0,2.0,hactare,,['beans'],,1
+118,3,3.0,1.5,hactare,,['tomatoes'],,1
+119,1,1.0,1.0,hactare,,['maize'],,1
+119,2,2.0,0.5,hactare,,['beans'],,1
+120,1,1.0,0.5,hactare,,['tomatoes'],,1
+120,2,2.0,1.0,hactare,,['maize'],,1
+120,3,3.0,2.0,hactare,,['maize'],,1
+121,1,1.0,1.5,hactare,,['maize'],,1
+121,2,2.0,0.5,hactare,,['tomatoes'],,1
+122,1,1.0,7.0,hactare,,['maize'],,1
+122,2,2.0,3.0,hactare,,['tomatoes'],,1
+122,3,3.0,1.0,hactare,,['tomatoes'],,1
+123,1,1.0,2.0,hactare,,['maize'],,1
+123,2,2.0,1.0,hactare,,"['tomatoes', 'vegetable']",,2
+124,1,1.0,7.0,hactare,,['maize'],,1
+124,2,2.0,3.0,hactare,,['piri_piri'],,1
+124,3,3.0,3.0,hactare,,['baby_corn'],,1
+125,1,1.0,1.0,hactare,,['tomatoes'],,1
+125,2,2.0,5.0,hactare,,['maize'],,1
+126,1,1.0,0.5,hactare,,['tomatoes'],,1
+126,2,2.0,0.5,hactare,,['maize'],,1
+126,3,3.0,0.5,hactare,,['baby_corn'],,1
+127,1,1.0,4.5,hactare,,"['maize', 'beans', 'peanut']",,3
+127,2,2.0,1.0,hactare,,['tomatoes'],,1
+128,1,1.0,3.0,hactare,,['maize'],,1
+128,2,2.0,2.5,hactare,,['tomatoes'],,1
+128,3,3.0,0.5,hactare,,['cabbage'],,1
+128,4,4.0,1.5,hactare,,['maize'],,1
+129,1,1.0,5.0,hactare,,['maize'],,1
+129,2,2.0,0.5,hactare,,['tomatoes'],,1
+130,1,1.0,5.0,hactare,,['maize'],,1
+130,2,2.0,1.0,hactare,,['vegetable'],,1
+131,1,1.0,0.5,hactare,,['maize'],,1
+131,2,2.0,4.5,hactare,,['maize'],,1
+132,1,1.0,0.2,hactare,,"['peanut', 'manioc']",,2
+132,2,2.0,0.1,hactare,,['beans'],,1
+133,1,1.0,0.3,hactare,,['maize'],,1
+133,2,2.0,0.3,hactare,,['pigeonpeas'],,1
+133,3,3.0,0.3,hactare,,['manioc'],,1
+134,1,1.0,1.0,hactare,,['maize'],,1
+134,2,2.0,1.0,hactare,,['rice'],,1
+134,3,3.0,1.0,hactare,,['sorghum'],,1
+134,4,4.0,0.5,hactare,,"['tomatoes', 'onion', 'green_pepper']",,3
+135,1,3.0,1.0,hactare,,['maize'],,1
+135,2,2.0,0.5,hactare,,"['maize', 'sorghum']",,2
+135,3,3.0,0.5,hactare,,['vegetable'],,1
+136,1,1.0,1.0,hactare,,['rice'],,1
+136,2,2.0,2.5,hactare,,['maize'],,1
+136,3,3.0,2.5,hactare,,['sorghum'],,1
+137,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+137,2,2.0,1.0,hactare,,['rice'],,1
+138,1,1.0,1.0,hactare,,['maize'],,1
+138,2,2.0,0.5,hactare,,['sorghum'],,1
+138,3,3.0,0.2,hactare,,['tomatoes'],,1
+139,1,1.0,3.0,hactare,,"['maize', 'beans', 'sweetpotato', 'ngogwe', 'vegetable']",,5
+140,1,1.0,1.0,hactare,,['maize'],,1
+140,2,2.0,1.0,hactare,,['sorghum'],,1
+140,3,3.0,0.5,hactare,,"['tomatoes', 'vegetable', 'piri_piri']",,3
+141,1,1.0,1.0,hactare,,['rice'],,1
+141,2,2.0,1.5,hactare,,['maize'],,1
+141,3,3.0,0.5,hactare,,"['onion', 'vegetable']",,2
+142,1,1.0,1.0,hactare,,['rice'],,1
+142,2,2.0,1.5,hactare,,['maize'],,1
+142,3,3.0,0.5,hactare,,"['onion', 'vegetable']",,2
+142,4,4.0,0.5,hactare,,['beans'],,1
+142,5,5.0,0.5,hactare,,['sesame'],,1
+143,1,1.0,0.5,hactare,,['maize'],,1
+143,2,2.0,1.0,hactare,,['rice'],,1
+144,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+144,2,3.0,0.5,hactare,,['tomatoes'],,1
+145,1,1.0,1.5,hactare,,['maize'],,1
+145,2,2.0,4.0,hactare,,"['maize', 'sorghum']",,2
+146,1,1.0,3.0,hactare,,"['maize', 'sesame', 'piri_piri']",,3
+146,2,2.0,0.5,hactare,,['rice'],,1
+146,3,3.0,1.5,hactare,,['sorghum'],,1
+147,1,1.0,3.0,hactare,,['maize'],,1
+147,2,2.0,2.5,hactare,,['rice'],,1
+147,3,3.0,1.0,hactare,,['sorghum'],,1
+148,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+148,2,3.0,1.0,hactare,,['rice'],,1
+149,1,1.0,1.5,hactare,,['maize'],,1
+149,2,2.0,1.0,hactare,,['maize'],,1
+149,3,3.0,0.5,hactare,,['sorghum'],,1
+149,4,4.0,1.0,hactare,,['sorghum'],,1
+150,1,1.0,1.0,hactare,,['maize'],,1
+150,2,2.0,0.5,hactare,,"['tomatoes', 'vegetable']",,2
+151,1,1.0,1.0,hactare,,['maize'],,1
+151,2,2.0,0.5,hactare,,['sorghum'],,1
+151,3,3.0,0.5,hactare,,['rice'],,1
+152,1,1.0,2.0,hactare,,['maize'],,1
+152,2,2.0,1.0,hactare,,['rice'],,1
+152,3,3.0,1.0,hactare,,"['tomatoes', 'onion', 'vegetable']",,3
+152,4,4.0,1.0,hactare,,['sorghum'],,1
+153,1,1.0,0.5,hactare,,['maize'],,1
+153,2,2.0,2.0,hactare,,['sorghum'],,1
+153,3,3.0,1.0,hactare,,['rice'],,1
+154,1,1.0,1.0,hactare,,['maize'],,1
+154,2,2.0,0.5,hactare,,['sorghum'],,1
+154,3,3.0,0.5,hactare,,['sorghum'],,1
+155,1,1.0,1.0,hactare,,['maize'],,1
+155,2,2.0,1.5,hactare,,['maize'],,1
+156,1,1.0,1.0,hactare,,['maize'],,1
+156,2,2.0,1.0,hactare,,['rice'],,1
+156,3,3.0,0.5,hactare,,['tomatoes'],,1
+157,1,1.0,0.5,hactare,,['sesame'],,1
+157,2,2.0,2.0,hactare,,['maize'],,1
+157,3,3.0,1.0,hactare,,['sorghum'],,1
+157,4,4.0,0.5,hactare,,"['tomatoes', 'vegetable']",,2
+158,1,1.0,1.0,hactare,,['maize'],,1
+158,2,2.0,1.0,hactare,,['rice'],,1
+159,1,1.0,3.0,hactare,,"['maize', 'sorghum', 'cassava']",,3
+160,1,1.0,1.0,hactare,,"['sorghum', 'rice']",,2
+161,1,1.0,0.5,hactare,,['rice'],,1
+161,2,2.0,1.0,hactare,,['sorghum'],,1
+162,1,1.0,1.5,hactare,,"['maize', 'sorghum']",,2
+162,2,2.0,0.5,hactare,,['rice'],,1
+163,1,1.0,1.0,hactare,,['sorghum'],,1
+163,2,2.0,0.5,hactare,,['rice'],,1
+164,1,1.0,3.0,hactare,,"['maize', 'sorghum', 'rice']",,3
+165,1,1.0,1.0,hactare,,"['maize', 'beans', 'sorghum', 'cassava']",,4
+165,2,1.0,0.5,hactare,,['rice'],,1
+166,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+166,2,2.0,0.5,hactare,,['rice'],,1
+167,1,1.0,3.0,hactare,,"['maize', 'sorghum', 'rice']",,3
+168,1,1.0,4.0,hactare,,"['maize', 'beans', 'sorghum', 'cassava', 'peanut']",,5
+168,2,2.0,0.5,hactare,,['rice'],,1
+169,1,1.0,2.0,hactare,,"['maize', 'sorghum', 'rice']",,3
+170,1,1.0,1.0,hactare,,['maize'],,1
+170,2,2.0,1.0,hactare,,['sorghum'],,1
+170,3,3.0,0.5,hactare,,['rice'],,1
+171,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+171,2,2.0,1.5,hactare,,"['maize', 'tomatoes']",,2
+172,1,1.0,2.5,hactare,,"['maize', 'sorghum']",,2
+172,2,2.0,1.5,hactare,,"['onion', 'vegetable']",,2
+172,3,3.0,3.0,hactare,,"['maize', 'sorghum', 'tomatoes', 'sesame']",,4
+173,1,1.0,1.0,hactare,,['maize'],,1
+173,2,2.0,1.0,hactare,,"['rice', 'vegetable']",,2
+174,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+174,2,2.0,0.5,hactare,,"['maize', 'rice']",,2
+175,1,1.0,0.5,hactare,,['rice'],,1
+175,2,2.0,0.5,hactare,,['rice'],,1
+175,3,3.0,2.5,hactare,,"['maize', 'sorghum']",,2
+176,1,1.0,1.0,hactare,,['rice'],,1
+176,2,2.0,1.0,hactare,,['rice'],,1
+176,3,3.0,2.0,hactare,,"['maize', 'sorghum']",,2
+177,1,1.0,0.5,hactare,,['rice'],,1
+177,2,2.0,1.0,hactare,,"['maize', 'sesame']",,2
+178,1,1.0,2.0,hactare,,['maize'],,1
+178,2,2.0,1.5,hactare,,['maize'],,1
+178,3,3.0,0.5,hactare,,['rice'],,1
+179,1,2.0,1.0,hactare,,"['maize', 'sorghum']",,2
+179,2,2.0,0.5,hactare,,['rice'],,1
+180,1,1.0,4.0,hactare,,['maize'],,1
+180,2,2.0,1.0,hactare,,['rice'],,1
+181,1,1.0,3.0,hactare,,['maize'],,1
+181,2,2.0,1.0,hactare,,['maize'],,1
+181,3,3.0,0.25,hactare,,['rice'],,1
+182,1,1.0,2.0,hactare,,['maize'],,1
+182,2,2.0,0.25,hactare,,['rice'],,1
+183,1,1.0,0.5,hactare,,['rice'],,1
+183,2,2.0,1.0,hactare,,['maize'],,1
+184,1,1.0,3.0,hactare,,"['pigeonpeas', 'maize', 'sesame']",,3
+184,2,2.0,1.5,hactare,,['other'],Cana de aτ·car,1
+185,1,1.0,1.0,hactare,,['maize'],,1
+185,2,2.0,0.5,hactare,,['sorghum'],,1
+185,3,3.0,0.5,hactare,,['rice'],,1
+186,1,1.0,1.5,hactare,,"['maize', 'sorghum']",,2
+186,2,2.0,0.5,hactare,,['rice'],,1
+187,1,1.0,1.5,hactare,,"['maize', 'sorghum']",,2
+187,2,2.0,0.5,hactare,,['rice'],,1
+188,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+189,1,2.0,1.0,hactare,,['sorghum'],,1
+189,2,2.0,1.0,hactare,,['maize'],,1
+189,3,3.0,1.0,hactare,,['rice'],,1
+189,4,4.0,0.5,hactare,,['tomatoes'],,1
+190,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+190,2,2.0,1.0,hactare,,['rice'],,1
+191,1,1.0,1.0,hactare,,['maize'],,1
+191,2,2.0,1.5,hactare,,['sorghum'],,1
+191,3,3.0,0.5,hactare,,['rice'],,1
+192,1,1.0,1.5,hactare,,"['maize', 'sorghum']",,2
+192,2,2.0,1.0,hactare,,['maize'],,1
+192,3,3.0,3.0,hactare,,['other'],Cana de aτ·car,1
+193,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+193,2,2.0,1.5,hactare,,"['pigeonpeas', 'maize', 'sorghum']",,3
+194,1,1.0,1.5,hactare,,['maize'],,1
+194,2,2.0,1.5,hactare,,['other'],Cana sacarina,1
+195,1,1.0,1.0,hactare,,['sorghum'],,1
+195,2,2.0,0.5,hactare,,['rice'],,1
+195,3,3.0,1.0,hactare,,['maize'],,1
+196,1,1.0,1.0,hactare,,['sorghum'],,1
+196,2,2.0,2.0,hactare,,['maize'],,1
+196,3,3.0,0.5,hactare,,['rice'],,1
+197,1,1.0,0.5,hactare,,['maize'],,1
+197,2,2.0,0.5,hactare,,['sorghum'],,1
+197,3,3.0,1.5,hactare,,['rice'],,1
+197,4,4.0,0.5,hactare,,['millet'],,1
+198,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+198,2,2.0,0.5,hactare,,['rice'],,1
+199,1,1.0,2.5,hactare,,"['maize', 'sorghum', 'millet']",,3
+199,2,2.0,1.5,hactare,,['other'],Cana sacarina,1
+199,3,1.0,0.5,hactare,,['maize'],,1
+199,4,,0.5,hactare,,['maize'],,1
+200,1,1.0,1.0,hactare,,['maize'],,1
+200,2,2.0,0.5,hactare,,['sorghum'],,1
+200,3,3.0,0.5,hactare,,['rice'],,1
+201,1,1.0,1.5,hactare,,['other'],Cana sacarina,1
+201,2,2.0,2.0,hactare,,"['maize', 'sorghum', 'sesame']",,3
+202,1,1.0,1.5,hactare,,"['maize', 'sorghum']",,2
+202,2,2.0,0.25,hactare,,['rice'],,1
+203,1,1.0,0.25,hactare,,['rice'],,1
+203,2,2.0,1.0,hactare,,"['maize', 'sorghum']",,2
+204,1,1.0,1.5,hactare,,['maize'],,1
+204,2,2.0,0.25,hactare,,['rice'],,1
+205,1,1.0,2.0,hactare,,['maize'],,1
+205,2,2.0,0.5,hactare,,['sorghum'],,1
+205,3,3.0,1.0,hactare,,['sweetpotato'],,1
+205,4,4.0,0.25,hactare,,['rice'],,1
+206,1,1.0,5.0,hactare,,"['maize', 'sorghum']",,2
+206,2,2.0,0.25,hactare,,['rice'],,1
+207,1,1.0,2.0,hactare,,['maize'],,1
+207,2,2.0,1.0,hactare,,['rice'],,1
+208,1,1.0,1.5,hactare,,"['maize', 'sorghum']",,2
+209,1,1.0,0.5,hactare,,['rice'],,1
+209,2,2.0,1.0,hactare,,['maize'],,1
+210,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+210,2,2.0,0.2,hactare,,['tomatoes'],,1
+211,1,1.0,0.5,hactare,,['maize'],,1
+211,2,2.0,0.25,hactare,,['rice'],,1
+212,1,1.0,0.5,hactare,,['maize'],,1
+212,2,2.0,0.5,hactare,,['sorghum'],,1
+212,3,3.0,1.5,hactare,,['other'],Cana sacarina,1
+213,1,1.0,0.5,hactare,,['rice'],,1
+213,2,2.0,1.0,hactare,,['maize'],,1
+214,1,1.0,2.5,hactare,,"['maize', 'sorghum']",,2
+214,2,3.0,0.5,hactare,,['rice'],,1
+215,1,1.0,0.5,hactare,,['sesame'],,1
+215,2,2.0,0.5,hactare,,['maize'],,1
+216,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+216,2,2.0,0.5,hactare,,['rice'],,1
+217,1,1.0,2.0,hactare,,['sorghum'],,1
+217,2,2.0,1.0,hactare,,['maize'],,1
+218,1,1.0,0.5,hactare,,['maize'],,1
+218,2,2.0,0.5,hactare,,['rice'],,1
+219,1,1.0,1.5,hactare,,"['maize', 'sesame']",,2
+219,2,2.0,0.5,hactare,,['rice'],,1
+220,1,1.0,3.0,hactare,,"['maize', 'sorghum']",,2
+220,2,2.0,1.0,hactare,,['rice'],,1
+221,1,1.0,1.0,hactare,,['maize'],,1
+221,2,2.0,0.5,hactare,,['rice'],,1
+222,1,1.0,1.5,hactare,,['other'],Cana sacarina,1
+222,2,2.0,3.0,hactare,,"['maize', 'sorghum']",,2
+222,3,3.0,1.0,hactare,,['rice'],,1
+223,1,1.0,0.5,hactare,,['maize'],,1
+223,2,2.0,1.0,hactare,,"['maize', 'sorghum']",,2
+224,1,3.0,0.5,hactare,,['maize'],,1
+224,2,2.0,1.0,hactare,,['maize'],,1
+224,3,3.0,1.5,hactare,,['other'],Cana sacarina,1
+225,1,1.0,1.5,hactare,,['maize'],,1
+225,2,2.0,1.0,hactare,,['sorghum'],,1
+226,1,1.0,0.5,hactare,,['sorghum'],,1
+226,2,2.0,1.0,hactare,,['maize'],,1
+227,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+227,2,3.0,0.5,hactare,,['rice'],,1
+228,1,1.0,2.0,hactare,,"['maize', 'sorghum', 'tomatoes', 'sesame']",,4
+228,2,2.0,0.5,hactare,,['rice'],,1
+229,1,1.0,1.0,hactare,,['maize'],,1
+229,2,2.0,0.5,hactare,,['rice'],,1
+230,1,1.0,3.0,hactare,,"['maize', 'sorghum']",,2
+230,2,2.0,0.5,hactare,,['tomatoes'],,1
+231,1,1.0,2.0,hactare,,['maize'],,1
+231,2,2.0,1.5,hactare,,['sorghum'],,1
+231,3,3.0,1.0,hactare,,['millet'],,1
+231,4,4.0,0.5,hactare,,['tomatoes'],,1
+232,1,1.0,0.3,hactare,,['tomatoes'],,1
+232,2,2.0,2.0,hactare,,['vegetable'],,1
+232,3,3.0,2.0,hactare,,['maize'],,1
+233,1,1.0,1.5,hactare,,['maize'],,1
+233,2,2.0,1.0,hactare,,['sorghum'],,1
+233,3,3.0,0.5,hactare,,['sesame'],,1
+234,1,1.0,2.0,hactare,,['maize'],,1
+234,2,2.0,1.5,hactare,,['sorghum'],,1
+234,3,3.0,0.5,hactare,,['sesame'],,1
+234,4,4.0,2.0,hactare,,['rice'],,1
+235,1,1.0,1.0,hactare,,['maize'],,1
+235,2,2.0,0.5,hactare,,['sorghum'],,1
+236,1,1.0,3.0,hactare,,['maize'],,1
+236,2,2.0,1.5,hactare,,['other'],Cana sacarina,1
+237,1,1.0,1.5,hactare,,"['maize', 'sorghum', 'sesame']",,3
+238,1,1.0,1.5,hactare,,['sorghum'],,1
+238,2,2.0,1.0,hactare,,['maize'],,1
+238,3,3.0,0.5,hactare,,['rice'],,1
+239,1,1.0,2.0,hactare,,"['maize', 'sorghum', 'rice']",,3
+240,1,1.0,1.0,hactare,,['maize'],,1
+240,2,2.0,1.0,hactare,,['sorghum'],,1
+240,3,3.0,1.0,hactare,,['rice'],,1
+240,4,4.0,1.5,hactare,,['other'],Cana sacarina,1
+241,1,1.0,1.0,hactare,,['maize'],,1
+241,2,2.0,0.25,hactare,,['rice'],,1
+241,3,3.0,0.25,hactare,,['sweetpotato'],,1
+242,1,1.0,1.0,hactare,,['maize'],,1
+242,2,2.0,1.0,hactare,,['sorghum'],,1
+242,3,3.0,0.25,hactare,,['rice'],,1
+243,1,1.0,1.0,hactare,,['maize'],,1
+243,2,2.0,1.0,hactare,,['sorghum'],,1
+243,3,3.0,1.0,hactare,,"['maize', 'rice']",,2
+244,1,1.0,2.0,hactare,,"['maize', 'rice']",,2
+244,2,1.0,1.0,hactare,,['cassava'],,1
+245,1,1.0,1.0,hactare,,['maize'],,1
+245,2,2.0,2.0,hactare,,['rice'],,1
+246,1,1.0,0.5,hactare,,['maize'],,1
+246,2,2.0,0.5,hactare,,['rice'],,1
+247,1,1.0,3.0,hactare,,['maize'],,1
+247,2,2.0,2.0,hactare,,"['maize', 'sorghum']",,2
+247,3,3.0,2.0,hactare,,['rice'],,1
+248,1,1.0,2.0,hactare,,['maize'],,1
+248,2,2.0,0.5,hactare,,['maize'],,1
+248,3,3.0,1.0,hactare,,['rice'],,1
+249,1,1.0,0.5,hactare,,['rice'],,1
+249,2,2.0,2.0,hactare,,['maize'],,1
+250,1,1.0,1.0,hactare,,['rice'],,1
+250,2,2.0,1.0,hactare,,['rice'],,1
+250,3,3.0,2.0,hactare,,['maize'],,1
+251,1,1.0,2.0,hactare,,['rice'],,1
+252,1,1.0,4.5,hactare,,"['maize', 'beans', 'sorghum']",,3
+252,2,2.0,1.0,hactare,,['rice'],,1
+253,1,1.0,1.5,hactare,,['maize'],,1
+253,2,2.0,0.5,hactare,,['rice'],,1
+253,3,3.0,0.5,hactare,,['rice'],,1
+254,1,1.0,1.5,hactare,,['maize'],,1
+254,2,2.0,0.5,hactare,,['rice'],,1
+255,1,1.0,1.0,hactare,,['millet'],,1
+255,2,2.0,0.5,hactare,,['sorghum'],,1
+255,3,3.0,1.0,hactare,,"['maize', 'tomatoes']",,2
+256,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+256,2,2.0,0.5,hactare,,['vegetable'],,1
+257,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+257,2,2.0,1.0,hactare,,['rice'],,1
+258,1,1.0,0.5,hactare,,['millet'],,1
+258,2,2.0,1.0,hactare,,['sorghum'],,1
+258,3,3.0,1.5,hactare,,['rice'],,1
+259,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+259,2,2.0,0.5,hactare,,['tomatoes'],,1
+260,1,1.0,1.0,hactare,,['maize'],,1
+260,2,2.0,2.0,hactare,,['sorghum'],,1
+260,3,3.0,1.0,hactare,,['rice'],,1
+261,1,1.0,10.0,hactare,,"['maize', 'sorghum']",,2
+262,1,1.0,2.0,hactare,,"['maize', 'vegetable', 'sesame']",,3
+263,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+263,2,2.0,0.5,hactare,,['rice'],,1
+263,3,3.0,0.5,hactare,,['rice'],,1
+263,4,4.0,0.5,hactare,,['rice'],,1
+264,1,1.0,4.5,hactare,,['maize'],,1
+264,2,2.0,2.0,hactare,,['rice'],,1
+265,1,1.0,1.0,hactare,,['maize'],,1
+265,2,2.0,0.5,hactare,,['rice'],,1
+266,1,1.0,3.0,hactare,,['rice'],,1
+266,2,2.0,2.0,hactare,,['maize'],,1
+267,1,1.0,0.5,hactare,,['rice'],,1
+267,2,2.0,0.5,hactare,,['maize'],,1
+268,1,1.0,3.0,hactare,,"['maize', 'rice']",,2
+269,1,1.0,5.0,hactare,,['maize'],,1
+269,2,2.0,0.5,hactare,,['rice'],,1
+269,3,3.0,0.25,hactare,,['sweetpotato'],,1
+270,1,1.0,0.5,hactare,,['maize'],,1
+270,2,2.0,0.5,hactare,,['rice'],,1
+271,1,1.0,0.25,hactare,,['rice'],,1
+271,2,2.0,2.0,hactare,,['maize'],,1
+272,1,1.0,1.5,hactare,,['maize'],,1
+272,2,2.0,1.0,hactare,,['rice'],,1
+272,3,3.0,0.5,hactare,,['vegetable'],,1
+273,1,1.0,0.25,hactare,,['sorghum'],,1
+273,2,2.0,0.5,hactare,,['maize'],,1
+273,3,3.0,1.0,hactare,,['rice'],,1
+274,1,1.0,1.5,hactare,,['rice'],,1
+274,2,2.0,3.0,hactare,,['maize'],,1
+275,1,1.0,1.0,hactare,,['maize'],,1
+275,2,2.0,0.5,hactare,,['rice'],,1
+276,1,1.0,0.75,hactare,,['rice'],,1
+277,1,1.0,0.5,hactare,,['rice'],,1
+277,2,2.0,0.3,hactare,,['sweetpotato'],,1
+278,1,1.0,3.0,hactare,,['maize'],,1
+278,2,2.0,0.5,hactare,,['rice'],,1
+279,1,1.0,3.0,hactare,,['maize'],,1
+279,2,2.0,1.0,hactare,,['rice'],,1
+279,3,3.0,0.5,hactare,,['tomatoes'],,1
+280,1,1.0,1.0,hactare,,['rice'],,1
+281,1,1.0,1.0,hactare,,['maize'],,1
+281,2,2.0,0.5,hactare,,['rice'],,1
+282,1,1.0,2.5,hactare,,"['maize', 'sorghum']",,2
+282,2,2.0,0.5,hactare,,['sesame'],,1
+282,3,3.0,2.0,hactare,,['rice'],,1
+283,1,1.0,1.0,hactare,,['rice'],,1
+283,2,2.0,3.0,hactare,,['maize'],,1
+283,3,3.0,1.0,hactare,,['sesame'],,1
+283,4,4.0,1.0,hactare,,['pigeonpeas'],,1
+284,1,1.0,2.5,hactare,,"['tomatoes', 'onion', 'rice', 'green_pepper']",,4
+285,1,2.0,1.0,hactare,,"['maize', 'sorghum']",,2
+285,2,3.0,1.0,hactare,,['rice'],,1
+286,1,1.0,2.0,hactare,,['maize'],,1
+286,2,2.0,1.0,hactare,,['rice'],,1
+287,1,1.0,0.25,hactare,,['rice'],,1
+287,2,2.0,1.0,hactare,,['maize'],,1
+288,1,1.0,1.5,hactare,,['maize'],,1
+288,2,2.0,0.25,hactare,,['sesame'],,1
+288,3,3.0,1.0,hactare,,['rice'],,1
+288,4,4.0,1.0,hactare,,['tomatoes'],,1
+289,1,1.0,1.5,hactare,,['maize'],,1
+289,2,2.0,0.5,hactare,,['rice'],,1
+290,1,1.0,1.0,hactare,,"['maize', 'sorghum', 'tomatoes', 'sesame']",,4
+291,1,2.0,2.0,hactare,,['vegetable'],,1
+291,2,2.0,2.0,hactare,,['rice'],,1
+292,1,1.0,1.0,hactare,,['maize'],,1
+292,2,2.0,0.5,hactare,,['rice'],,1
+293,1,1.0,2.5,hactare,,['maize'],,1
+293,2,2.0,2.5,hactare,,['rice'],,1
+294,1,1.0,1.0,hactare,,['rice'],,1
+294,2,2.0,0.5,hactare,,['sorghum'],,1
+294,3,3.0,1.0,hactare,,['maize'],,1
+295,1,1.0,0.5,hactare,,['maize'],,1
+295,2,2.0,0.5,hactare,,['rice'],,1
+295,3,3.0,0.5,hactare,,['onion'],,1
+296,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+296,2,3.0,0.25,hactare,,['rice'],,1
+297,1,1.0,2.0,hactare,,['maize'],,1
+297,2,2.0,1.0,hactare,,['sorghum'],,1
+298,1,1.0,0.5,hactare,,['rice'],,1
+298,2,2.0,0.5,hactare,,['maize'],,1
+299,1,1.0,0.5,hactare,,['maize'],,1
+299,2,2.0,0.25,hactare,,['rice'],,1
+300,1,1.0,0.5,hactare,,"['maize', 'rice']",,2
+301,1,1.0,1.5,hactare,,"['maize', 'sweetpotato']",,2
+302,1,1.0,0.5,hactare,,['rice'],,1
+302,2,2.0,1.0,hactare,,['maize'],,1
+302,3,3.0,1.0,hactare,,['sesame'],,1
+303,1,1.0,0.5,hactare,,['rice'],,1
+303,2,2.0,0.5,hactare,,['maize'],,1
+304,1,1.0,1.0,hactare,,['rice'],,1
+304,2,2.0,0.5,hactare,,['tomatoes'],,1
+304,3,3.0,0.5,hactare,,['vegetable'],,1
+304,4,4.0,0.5,hactare,,['maize'],,1
+305,1,1.0,3.0,hactare,,['maize'],,1
+305,2,2.0,0.5,hactare,,['rice'],,1
+306,1,1.0,0.5,hactare,,['rice'],,1
+306,2,2.0,1.5,hactare,,['maize'],,1
+307,1,1.0,1.0,hactare,,['maize'],,1
+307,2,2.0,0.5,hactare,,['maize'],,1
+307,3,3.0,0.5,hactare,,['rice'],,1
+307,4,4.0,0.5,hactare,,['rice'],,1
+308,1,1.0,0.5,hactare,,['rice'],,1
+308,2,2.0,2.0,hactare,,['maize'],,1
+309,1,1.0,1.5,hactare,,['maize'],,1
+309,2,2.0,0.5,hactare,,['rice'],,1
+310,1,1.0,0.5,hactare,,['rice'],,1
+310,2,2.0,1.0,hactare,,['maize'],,1
+310,3,3.0,0.5,hactare,,['maize'],,1
+311,1,1.0,1.0,hactare,,['maize'],,1
+311,2,2.0,0.5,hactare,,['rice'],,1
+312,1,1.0,1.0,hactare,,['maize'],,1
+312,2,2.0,1.0,hactare,,['rice'],,1
+313,1,1.0,2.0,hactare,,['maize'],,1
+313,2,2.0,1.0,hactare,,['rice'],,1
+313,3,3.0,1.0,hactare,,['sorghum'],,1
+314,1,1.0,1.0,hactare,,['maize'],,1
+314,2,2.0,1.0,hactare,,['rice'],,1
+315,1,1.0,1.5,hactare,,['maize'],,1
+315,2,2.0,0.5,hactare,,['rice'],,1
+315,3,3.0,0.5,hactare,,['rice'],,1
+316,1,1.0,1.5,hactare,,['maize'],,1
+316,2,2.0,1.5,hactare,,['rice'],,1
+317,1,1.0,1.0,hactare,,['maize'],,1
+317,2,2.0,2.0,hactare,,['maize'],,1
+317,3,3.0,0.5,hactare,,['rice'],,1
+317,4,4.0,0.4,hactare,,['rice'],,1
+318,1,1.0,1.0,hactare,,['rice'],,1
+318,2,2.0,2.0,hactare,,['maize'],,1
+318,3,3.0,1.0,hactare,,['sorghum'],,1
+318,4,4.0,0.5,hactare,,['onion'],,1
+318,5,5.0,0.5,hactare,,"['tomatoes', 'vegetable']",,2
+319,1,1.0,1.0,hactare,,['rice'],,1
+319,2,2.0,2.0,hactare,,['maize'],,1
+320,1,1.0,0.5,hactare,,['rice'],,1
+321,1,1.0,1.5,hactare,,"['maize', 'sorghum', 'tomatoes']",,3
+322,1,1.0,1.0,hactare,,['maize'],,1
+322,2,2.0,2.0,hactare,,['rice'],,1
+322,3,3.0,2.0,hactare,,['sesame'],,1
+323,1,1.0,0.5,hactare,,['sesame'],,1
+323,2,2.0,0.5,hactare,,['maize'],,1
+323,3,3.0,0.5,hactare,,['cabbage'],,1
+323,4,4.0,0.5,hactare,,['green_beans'],,1
+323,5,5.0,4.5,hactare,,['maize'],,1
+324,1,1.0,0.5,hactare,,['maize'],,1
+324,2,2.0,0.5,hactare,,['maize'],,1
+324,3,3.0,3.0,hactare,,['cabbage'],,1
+324,4,4.0,0.5,hactare,,['baby_corn'],,1
+325,1,1.0,1.5,hactare,,['maize'],,1
+325,2,2.0,0.5,hactare,,['baby_corn'],,1
+325,3,3.0,0.5,hactare,,['piri_piri'],,1
+326,1,1.0,0.5,hactare,,['maize'],,1
+326,2,2.0,0.5,hactare,,['beans'],,1
+326,3,3.0,0.5,hactare,,['piri_piri'],,1
+326,4,4.0,0.5,hactare,,['baby_corn'],,1
+326,5,5.0,0.5,hactare,,['sweetpotato'],,1
+326,6,6.0,0.5,hactare,,['cabbage'],,1
+327,1,1.0,1.0,hactare,,['maize'],,1
+327,2,2.0,0.5,hactare,,['baby_corn'],,1
+328,1,1.0,2.0,hactare,,"['maize', 'beans', 'potatoes', 'cabbage']",,4
+329,1,1.0,1.0,hactare,,['maize'],,1
+329,2,2.0,1.0,hactare,,"['maize', 'baby_corn']",,2
+330,1,1.0,2.0,hactare,,['maize'],,1
+330,2,2.0,0.5,hactare,,['bananas'],,1
+330,3,3.0,1.0,hactare,,"['cabbage', 'baby_corn', 'piri_piri', 'other']",Beterraba,4
+331,1,1.0,7.5,hactare,,"['maize', 'bananas', 'other']",Abacate,3
+331,2,2.0,0.5,hactare,,"['maize', 'baby_corn', 'green_beans']",,3
+331,3,3.0,0.5,hactare,,"['maize', 'tomatoes']",,2
+332,1,1.0,1.0,hactare,,"['maize', 'sorghum', 'sesame']",,3
+332,2,2.0,0.5,hactare,,['rice'],,1
+333,1,1.0,2.5,hactare,,['maize'],,1
+333,2,2.0,1.0,hactare,,['rice'],,1
+333,3,3.0,1.0,hactare,,"['beans', 'onion', 'vegetable']",,3
+334,1,1.0,2.0,hactare,,['maize'],,1
+334,2,2.0,2.0,hactare,,['rice'],,1
+335,1,1.0,2.0,hactare,,['maize'],,1
+335,2,2.0,3.0,hactare,,"['tomatoes', 'onion', 'green_pepper', 'cabbage']",,4
+336,1,1.0,1.0,hactare,,['rice'],,1
+336,2,2.0,1.5,hactare,,"['maize', 'sorghum', 'millet']",,3
+337,1,1.0,2.0,hactare,,['maize'],,1
+337,2,2.0,1.0,hactare,,"['tomatoes', 'rice']",,2
+338,1,1.0,2.5,hactare,,['rice'],,1
+338,2,2.0,3.0,hactare,,['maize'],,1
+339,1,1.0,2.0,hactare,,['maize'],,1
+339,2,2.0,0.5,hactare,,['rice'],,1
+339,3,3.0,0.5,hactare,,"['tomatoes', 'vegetable']",,2
+340,1,1.0,1.0,hactare,,['maize'],,1
+340,2,2.0,0.5,hactare,,['rice'],,1
+341,1,1.0,1.5,hactare,,['maize'],,1
+341,2,2.0,0.5,hactare,,['rice'],,1
+341,3,3.0,1.0,hactare,,['maize'],,1
+342,1,1.0,2.0,hactare,,['maize'],,1
+342,2,2.0,0.5,hactare,,['rice'],,1
+343,1,1.0,3.0,hactare,,['maize'],,1
+343,2,2.0,2.0,hactare,,['rice'],,1
+344,1,1.0,3.5,hactare,,['maize'],,1
+344,2,2.0,1.5,hactare,,['rice'],,1
+345,1,1.0,1.0,hactare,,['maize'],,1
+345,2,2.0,1.5,hactare,,"['maize', 'sorghum']",,2
+345,3,3.0,1.0,hactare,,['rice'],,1
+346,1,1.0,1.0,hactare,,"['maize', 'sorghum']",,2
+347,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+347,2,2.0,0.5,hactare,,['rice'],,1
+348,1,1.0,2.0,hactare,,['maize'],,1
+348,2,2.0,1.0,hactare,,['sorghum'],,1
+348,3,3.0,1.0,hactare,,['rice'],,1
+348,4,4.0,0.5,hactare,,['millet'],,1
+349,1,1.0,2.0,hactare,,"['maize', 'sorghum']",,2
+349,2,3.0,0.5,hactare,,['rice'],,1
+350,1,1.0,2.0,hactare,,['maize'],,1
+350,2,2.0,1.0,hactare,,['sorghum'],,1
+350,3,3.0,0.5,hactare,,['rice'],,1
+351,1,1.0,1.0,hactare,,['rice'],,1
+351,2,2.0,0.5,hactare,,['tomatoes'],,1
+351,3,3.0,2.0,hactare,,['maize'],,1
+352,1,1.0,1.0,hactare,,['rice'],,1
+352,2,2.0,2.0,hactare,,['maize'],,1
+352,3,3.0,1.5,hactare,,['maize'],,1
+353,1,1.0,0.5,hactare,,['rice'],,1
+353,2,2.0,3.0,hactare,,['maize'],,1
+354,1,1.0,0.5,hactare,,['maize'],,1
+354,2,2.0,0.5,hactare,,['sorghum'],,1
+354,3,3.0,0.5,hactare,,['rice'],,1
+355,1,1.0,1.0,hactare,,"['sorghum', 'millet']",,2
+356,1,1.0,0.2,hactare,,['maize'],,1
+356,2,2.0,1.5,hactare,,"['sorghum', 'sesame']",,2
+357,1,2.0,1.0,hactare,,['rice'],,1
+357,2,2.0,2.0,hactare,,"['maize', 'sorghum']",,2
+358,1,1.0,1.5,hactare,,['sesame'],,1
+358,2,2.0,1.0,hactare,,['sorghum'],,1
+358,3,3.0,0.5,hactare,,['maize'],,1
+358,4,4.0,0.5,hactare,,['rice'],,1
+359,1,1.0,2.0,hactare,,['maize'],,1
+359,2,2.0,2.0,hactare,,['beans'],,1
+359,3,3.0,0.5,hactare,,['rice'],,1
+360,1,1.0,2.0,hactare,,['maize'],,1
+360,2,2.0,0.5,hactare,,['maize'],,1
+360,3,3.0,2.0,hactare,,['sorghum'],,1
+360,4,4.0,0.5,hactare,,['rice'],,1
