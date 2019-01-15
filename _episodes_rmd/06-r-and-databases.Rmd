@@ -170,7 +170,7 @@ the operations by creating the `surveys` object, and then we use the standard
 
 ```{r use-dplyr-syntax, eval=FALSE}
 farms <- tbl(safi, "Farms")
-df <- farms %>%
+farms %>%
     select(Country, A06_province, A07_district, A08_ward, A09_village)
 ```
 
