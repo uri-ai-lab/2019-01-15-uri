@@ -118,7 +118,7 @@ We can point R to this database using:
 ```{r connect, eval=FALSE}
 library(dplyr)
 library(dbplyr)
-safi <- DBI::dbConnect(RSQLite::SQLite(), "data/safi.sqlite")
+safi <- DBI::dbConnect(RSQLite::SQLite(), "data/safi_messy.sqlite")
 ```
 
 This command uses 2 packages that helps **`dbplyr`** and **`dplyr`** talk to the SQLite database. **`DBI`** is not something that you'll use directly as a user. It allows R to send commands to databases irrespective of the database management system used. The **`RSQLite`** package allows R to interface with SQLite databases.
@@ -345,16 +345,16 @@ collaborators have already put together complex queries to prepare the dataset
 that you need for your analysis.
 
 To illustrate how to use **`dplyr`** with these complex queries, we are going to join
-the `plots` and `surveys` tables. The `plots` table in the database contains
-information about the different plots surveyed by the researchers. To access it,
+the `Farms` and `Crops` tables. The `Crops` table in the database contains
+information about the different crops grown on each farm. To access it,
 we point the `tbl()` command to it:
 
 ```{r plots, results='markup', eval=FALSE}
-# plots <- tbl(mammals, "plots")
-# plots
+crops <- tbl(safi, "Plots")
+crops
 ```
 
-The `plot_id` column also features in the `surveys` table:
+The `plot_Id` column also features in the `Crops` table:
 
 ```{r surveys, results='markup', eval=FALSE}
 # surveys
