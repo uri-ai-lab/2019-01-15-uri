@@ -9,3 +9,4 @@ _site
 .Rhistory
 .RData
 2019-01-15-uri.Rproj
+_episodes_rmd/*.html
