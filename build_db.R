@@ -1,3 +1,4 @@
+# add to lesson
 library(tidyverse)
 library(DBI)
 crops <- read_csv("_episodes_rmd/data/crops.csv")
