@@ -118,7 +118,7 @@ We can point R to this database using:
 ```{r connect, eval=FALSE}
 library(dplyr)
 library(dbplyr)
-safi <- DBI::dbConnect(RSQLite::SQLite(), "data/safi_messy.sqlite")
+safi <- DBI::dbConnect(RSQLite::SQLite(), "data/safi.sqlite")
 ```
 
 This command uses 2 packages that helps **`dbplyr`** and **`dplyr`** talk to the SQLite database. **`DBI`** is not something that you'll use directly as a user. It allows R to send commands to databases irrespective of the database management system used. The **`RSQLite`** package allows R to interface with SQLite databases.
@@ -150,11 +150,11 @@ the data from its tables into R.
 
 To connect to tables within a database, you can use the `tbl()` function from
 **`dplyr`**. This function can be used to send SQL queries to the database. To
-demonstrate this functionality, let's select the columns "year", "species_id",
-and "plot_id" from the `surveys` table:
+demonstrate this functionality, let's select the columns "id", "village",
+and "interview_date" from the `farms` table:
 
 ```{r use-sql-syntax, eval=FALSE}
-tbl(safi, sql("SELECT Country, A06_province, A07_district, A08_ward, A09_village FROM Farms"))
+tbl(safi, sql("SELECT Id, village, interview_date FROM farms"))
 ```
 
 With this approach you can use query written in SQL syntax, but in this lesson,
@@ -169,9 +169,9 @@ the operations by creating the `surveys` object, and then we use the standard
 **`dplyr`** syntax as if it were a data frame:
 
 ```{r use-dplyr-syntax, eval=FALSE}
-farms <- tbl(safi, "Farms")
+farms <- tbl(safi, "farms")
 farms %>%
-    select(Country, A06_province, A07_district, A08_ward, A09_village)
+    select(Id, village, interview_date)
 ```
 
 In this case, the `farms` object behaves like a data frame. Several
@@ -256,16 +256,16 @@ To see this in action, let's compose a few queries with **`dplyr`**.
 ## Simple database queries
 
 First, let's only request rows of the `Farms` table in which `B16_years_liv` is greater
-than 25 and keep only the Id, B16_years_liv, and B17_parents_liv columns.
+than 25 and keep only the Id, years_liv, and respondent_wall_type columns.
 
 ```{r pipe, results='show', eval=FALSE}
 farms %>%
-  filter(B16_years_liv > 25) %>%
-  select(Id, B16_years_liv, B17_parents_liv)
+  filter(years_liv > 25) %>%
+  select(Id, years_liv,respondent_wall_type)
 ```
 
 Executing this command will return a table with 10 rows and the requested
-`Id`, `B16_years_liv` and `B17_parents_liv` columns. Great!
+`Id`, `years_liv` and `respondent_wall_type` columns. Great!
 
 ... but wait, why are there only 10 rows?
 
@@ -293,24 +293,24 @@ When you construct a **`dplyr`** query, you can connect multiple verbs into a si
 pipeline. For example, we combined the `filter()` and `select()` verbs using the
 `%>%` pipe.
 
-If we wanted to, we could add on even more steps, e.g. remove the `B17_parents_liv` column
+If we wanted to, we could add on even more steps, e.g. remove the `respondent_wall_type` column
 in an additional `select` call:
 
 ```{r pipe2, results='show', eval=FALSE}
 data_subset <- farms %>%
-  filter(B16_years_liv > 25) %>%
-  select(Id, B16_years_liv, B17_parents_liv)
+  filter(years_liv > 25) %>%
+  select(Id, years_liv, respondent_wall_type)
  
 data_subset %>%
-   select(-B17_parents_liv)
+   select(-respondent_wall_type)
 ```
 
-Just like the first `select(Id, B16_years_liv, B17_parents_liv)` call, the 
-`select(-B17_parents_liv)` command is not executed by R. It is sent to the 
+Just like the first `select(Id, years_liv, respondent_wall_type)` call, the 
+`select(-respondent_wall_type)` command is not executed by R. It is sent to the 
 database instead. Only the _final_ result is retrieved and displayed to you.
 
 Of course, we could always add on more steps, e.g., we could filter by
-`Id` or  minimum `B16_years_liv`. That's why R doesn't retrieve the full set
+`Id` or  minimum `years_liv`. That's why R doesn't retrieve the full set
 of results - instead it only retrieves the first 10 results from the database
 by default. (After all, you might want to add an additional step and get the
 database to do more work...)
@@ -322,12 +322,12 @@ the R session.
 
 ```{r collect, results='markup', eval=FALSE}
 data_subset <- farms %>%
-  filter(B16_years_liv > 25) %>%
-  select(Id, B16_years_liv, B17_parents_liv) %>%
+  filter(years_liv > 25) %>%
+  select(Id, years_liv, respondent_wall_type) %>%
   collect()
 ```
 
-Now we have all 17 rows that match our query in a `data.frame` and can continue
+Now we have all 36 rows that match our query in a `data.frame` and can continue
 to work with them exclusively in R, without communicating with the database.
 
 ## Complex database queries
@@ -345,22 +345,23 @@ collaborators have already put together complex queries to prepare the dataset
 that you need for your analysis.
 
 To illustrate how to use **`dplyr`** with these complex queries, we are going to join
-the `Farms` and `Crops` tables. The `Crops` table in the database contains
+the `farms` and `crops` tables. The `crops` table in the database contains
 information about the different crops grown on each farm. To access it,
 we point the `tbl()` command to it:
 
 ```{r plots, results='markup', eval=FALSE}
-crops <- tbl(safi, "Plots")
+crops <- tbl(safi, "crops")
 crops
 ```
 
-The `plot_Id` column also features in the `Crops` table:
+The `Id` column also features in the `farms` table:
 
 ```{r surveys, results='markup', eval=FALSE}
-# surveys
+farms <- tbl(safi, "farms")
+farms
 ```
 
-Because `plot_id` is listed in both tables, we can use it to look up matching
+Because `Id` is listed in both tables, we can use it to look up matching
 records, and join the two tables.
 
 
@@ -371,10 +372,10 @@ For example, to extract all surveys for the first plot, which has `plot_id` 1,
 we can do:
 
 ```{r join, results='markup', eval=FALSE}
-# plots %>%
-#   filter(plot_id == 1) %>%
-#   inner_join(surveys) %>%
-#   collect()
+crops %>%
+   filter(plot_Id == 1) %>%
+   inner_join(farms) %>%
+   collect()
 ```
 
 
@@ -385,49 +386,31 @@ retrieved.
 
 > ## Challenge 1.
 >
-> Write a query that returns the number of rodents observed in each plot in
-> each year.
+> Write a query that returns the years_liv for each farm that grows maize in their 
+> first plot.
 >
-> Hint: Connect to the species table and write a query that joins the species
-> and survey tables together to exclude all non-rodents.
-> The query should return counts of rodents by year.
->
-{: .challenge}
-
-
-> ## Challenge 2.
->
->  Write a query that returns the total number of rodents in each genus caught
->  in the different plot types.
->
->  Hint: Write a query that joins the species, plot, and survey tables together.
->  The query should return counts of genus by plot type.
-> 
->   species <- tbl("mammals", species)
->   genus_counts <- left_join(surveys, plots) %>%
->                   left_join(species) %>%
->                   group_by(plot_type, genus) %>%
->                   tally %>%
->                   collect()
 > 
 {: .challenge}
 
 
-This is useful if we are interested in estimating the number of individuals
-belonging to each genus found in each plot type. But what if we were interested
-in the number of genera found in each plot type? Using `tally()` gives the
-number of individuals, instead we need to use `n_distinct()` to count the
-number of unique values found in a column.
+
+{: .challenge}
+
+
+Since farms can have multiple plots, we can use summarize to get a count
+of the number of plots in which maize is the current crop.
 
 ```{r count_unique_genera, eval=FALSE}
- species <- tbl(mammals, "species")
- unique_genera <- left_join(surveys, plots) %>%
-     left_join(species) %>%
-     group_by(plot_type) %>%
-     summarize(
-         n_genera = n_distinct(genus)
-     ) %>%
-     collect()
+farms <- tbl(safi, "farms")
+maize_plots <- crops %>%
+  filter(D_curr_crop == "maize") %>%
+  inner_join(farms) %>%
+  group_by(Id) %>%
+  summarize(
+      maize_num = n()
+  ) %>%
+  collect()
+maize_plots
 ```
 
 `n_distinct`, like the other **`dplyr`** functions we have used in this lesson, works
